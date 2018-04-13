@@ -11,5 +11,6 @@ RUN pip --no-cache-dir install \
 RUN conda install --quiet --yes \
     'opencv' \
     'scikit-image' \ 
-    'tqdm'
+    'tqdm' \ 
+    'pathos'
 
